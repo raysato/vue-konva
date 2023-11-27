@@ -1,4 +1,4 @@
-import Konva from 'konva';
+import Konva from '@raddeee/konva';
 
 type Pos = { x: number, y: number, button: number }
 

@@ -1,6 +1,6 @@
 import { nextTick, h, defineComponent } from 'vue';
 import { expect, describe, it, beforeEach, afterEach, vi } from 'vitest';
-import Konva from 'konva';
+import Konva from '@raddeee/konva';
 import { mount, config } from '@vue/test-utils';
 
 import './mocking';

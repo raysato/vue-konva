@@ -10,7 +10,7 @@ import {
   defineComponent,
   PropType,
 } from 'vue';
-import type Konva from 'konva';
+import type Konva from '@raddeee/konva';
 import { applyNodeProps, checkOrder } from '../utils';
 
 export default defineComponent({

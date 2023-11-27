@@ -14,7 +14,7 @@ export default defineConfig({
       fileName: 'vue-konva',
     },
     rollupOptions: {
-      external: ['vue', 'konva'],
+      external: ['vue', '@raddeee/konva'],
       output: {
         globals: {
           vue: 'Vue',

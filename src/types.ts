@@ -1,4 +1,4 @@
-import Konva from 'konva';
+import Konva from '@raddeee/konva';
 
 export const KONVA_NODES = [
   'Arc',

@@ -1,6 +1,6 @@
 {
-  "name": "vue-konva",
-  "version": "3.0.3",
+  "name": "@raddeee/vue-konva",
+  "version": "1.0.0",
   "description": "Vue binding to canvas element via Konva framework",
   "keywords": [
     "vue",
@@ -8,7 +8,7 @@
     "canvas"
   ],
   "homepage": "https://github.com/konvajs/vue-konva#readme",
-  "author": "Rafael Escala <rafaesc92@gmail.com>",
+  "author": "raysato",
   "main": "dist/vue-konva.umd.js",
   "types": "dist/index.d.ts",
   "vetur": {
@@ -35,7 +35,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/konvajs/vue-konva.git"
+    "url": "git+https://github.com/raysato/vue-konva.git"
   },
   "license": "MIT",
   "bugs": {
@@ -48,18 +48,17 @@
     "format": "prettier --write ."
   },
   "peerDependencies": {
-    "konva": ">7",
     "vue": "^3"
   },
   "devDependencies": {
+    "@napi-rs/canvas": "^0.1.44",
+    "@raddeee/konva": "^1.0.0",
     "@vitest/coverage-c8": "^0.30.1",
     "@vue/compiler-sfc": "^3.2.31",
     "@vue/test-utils": "^2.3.2",
-    "canvas": "^2.11.2",
     "eslint": "^8.38.0",
     "eslint-plugin-vue": "^8.7.1",
     "jsdom": "^21.1.1",
-    "konva": ">7",
     "prettier": "^3.0.0-alpha.7-for-vscode",
     "typescript": "^5.0.4",
     "vite": "^4.2.2",

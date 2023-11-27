@@ -5,7 +5,7 @@ import { componentPrefix } from './utils';
 import { KONVA_NODES } from './types';
 
 if (typeof window !== 'undefined' && !window.Konva) {
-  require('konva');
+  require('@raddeee/konva');
 }
 
 const VueKonva = {

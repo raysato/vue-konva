@@ -1,4 +1,4 @@
-import type Konva from 'konva';
+import type Konva from '@raddeee/konva';
 import type { KonvaNodes } from './src/types';
 
 declare global {
